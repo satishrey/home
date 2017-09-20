@@ -1,0 +1,55 @@
+/* my body tag will always be justified*/
+
+body
+{
+	background-color: #c5e2c8
+}
+
+p
+{
+	text-align: justify;
+	font-size: 25px;
+	line-height: 100%;
+	font-family: sans-serif;
+}
+
+#head
+{
+	font-size: 60px;
+	text-align: center;
+	color: blue;
+	font-family: 'courier new';
+}
+
+h2
+{
+	font-size: 40px;
+	font-family: 'Comic Sans MS';
+}	
+
+h3
+{
+	font-size: 30px;
+	font-family: 'Comic Sans MS';
+}	
+
+ul
+{
+	font-size: 25px;
+}
+
+img
+{
+	float: left;
+    margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	border-radius: 50%;
+}
+
+span 
+{
+	font-style: italic;
+	text-decoration: underline;
+}
