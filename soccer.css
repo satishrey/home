@@ -2,7 +2,7 @@
 
 body
 {
-	background-color: #c5e2c8
+	background-color: #4c6996
 }
 
 p
@@ -15,7 +15,7 @@ p
 
 #head
 {
-	font-size: 60px;
+	font-size: 70px;
 	text-align: center;
 	color: blue;
 	font-family: 'courier new';
@@ -31,7 +31,13 @@ h3
 {
 	font-size: 30px;
 	font-family: 'Comic Sans MS';
-}	
+}
+
+h4
+{
+	font-size: 27px;
+	font-family: 'Comic Sans MS';	
+}
 
 ul
 {
@@ -41,10 +47,10 @@ ul
 img
 {
 	float: left;
-    margin-right: 10px;
+        margin-right: 10px;
 	margin-left: 10px;
 	margin-top: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 120px;
 	border-radius: 50%;
 }
 
@@ -52,4 +58,23 @@ span
 {
 	font-style: italic;
 	text-decoration: underline;
+}
+
+div.scrollmenu {
+    background-color: #2f3a4c;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+div.scrollmenu a:hover {
+    background-color: #918b8b;
 }
