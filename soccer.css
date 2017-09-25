@@ -1,0 +1,180 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%; 
+	background-color:#d0d7e2;
+}
+p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 100%;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: blue;
+    font-family: "Comic Sans MS";
+    padding-top: 40px;
+}
+
+.head1 {
+	font-size: 45px;
+	font-family: "Comic Sans MS";
+}
+h2 {
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+    padding-top: 40px;
+}
+h3 {
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    padding-top: 40px;
+}
+h4 {
+    font-size: 27px;
+    font-family: "Comic Sans MS";
+	padding-top: 40px;
+}
+ul {
+    font-size: 25px;
+}
+img {
+    border-radius: 8px;
+    /* This is to make the image rounded edges  */
+    float: right;
+    margin: 2%;
+}
+
+#socball {
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    /* This is to make the image look circular */
+}	
+.left {
+	float:left;
+	
+
+}
+span {
+    font-style: italic;
+}
+#main-menu ul {
+    list-style: none;
+    position: fixed;
+    float: left;
+    margin: 0;
+    padding: 10px;
+    /* all 4 paddings i.e. top , right , bottom and left are set to 10 px */
+    top: 0px;
+    background-color: #a4c5fc;
+    /*lighter blue*/
+    width: 80%;
+    border-radius: 8px;
+}
+#main-menu ul a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    /* font size of my main menu items */
+    padding: 0 2vw 0 2vw;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#main-menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#main-menu ul li:hover {
+    background: #6686ba;
+    /*background color of our menu items when mouse is hovered over them */
+    
+    border-radius: 8px;
+}
+#main-menu ul ul li:hover {
+    background: #789edb;
+    /*background color of our sub menu items when mouse is hovered over them */
+    
+    border-radius: 8px;
+    /*to give rounded edges*/
+}
+#main-menu ul ul
+/* This css declaration block will hide my sub-menus*/
+
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #a4c5fc;
+    /*background color of our sub menu is same as menu backgroud color */
+    
+    padding: 0;
+}
+#main-menu ul ul li {
+    float: none;
+    width: 100%;
+}
+#main-menu ul ul a {
+    line-height: 120%;
+    padding: 2px 2px;
+    /* top , right, bottom and left padding of 2px around sub menu links*/
+    
+    font-size: 15px;
+    /*  font size of our sub menu links */
+}
+#main-menu ul li:hover > ul
+/* This css declaration block will show our hidden menu when someone hovers over the link*/
+
+{
+    display: block;
+}
+#main-menu ul ul ul
+/* This css declaration helps in displaying my deep sub menu properly */
+
+{
+    top: 0;
+    left: 100%;
+}
+
+#main-menu ul ul ul ul
+{
+    top: 0;
+    left: 100%;
+}
+
+div.figure {
+  float: right;
+  text-align: center;
+  font-style: italic;
+  font-size: 10px;
+  text-indent: 15%;
+  border-bottom: none;
+  margin-left: 2em;
+  /* For my capions */
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 3px solid #173e7c;
+    text-align: left;
+    padding: 8px;
+	width: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #abb6c9;
+}
+
